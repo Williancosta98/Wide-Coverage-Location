@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu{
+    margin-left: 32px;
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+}
+
+.link-menu:hover{
+ color:#4cb538;
+}
+
+.button-menu{
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid;
+    background: #4cb538;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 32px;
+}
+
+.button-menu:hover{
+    opacity: 0.8;
+}
+
+.button-menu:active{
+    opacity: 0.3;
+    color: #4B505A;
+}
+
+.logo-image{
+    display: inline-block;
+    width: 595.18px;
+    height: 500px;
+    margin: 163px 89.4px 0 121px;
+}
+
+.container-right{
+    display: inline-block;
+}
+
+h1{
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;  
+}
+
+p{
+   width: 493px;
+   color: #4B505A;
+   font-size: 18px;
+   font-weight:400;
+   line-height: 33px;
+   letter-spacing: 0.5px; 
+   margin-top: 57px;
+   margin-bottom: 55px;
+}
+
+.bottom-link{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.bottom-link:hover{
+    opacity: 0.6;
+}
+
+.bottom-link:active{
+    color: #b1b1b1;
+}
+
+@media screen and (max-width: 900px){
+    *{
+        padding: 0;
+        margin: 0;
+        width: 50vh;
+        height: 100vw;
+    }
+
+    .link-menu{
+        display: none;
+    }
+
+    .button-menu{
+        position: fixed;
+        left: 49%;
+        bottom: 93%;
+        width: 120px;
+        height: 45px;
+        border-radius: 10px;
+    }
+
+    .logo-image{
+        width: 312px;
+        height: 288px;
+    }
+
+    .container-right{
+        position: relative;
+        bottom: 50%;
+    }
+
+    h1{
+       width: 278px;
+       height: 60px; 
+       left: 15%;
+       bottom: 100%;
+       position: relative;
+       color: #161A49;
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+
+    }
+
+    p{
+        width: 304px;
+        height: 165px;
+        color: #4B505A;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        position: relative;
+        bottom: 105%;
+        left: 12%;
+    }
+
+    .bottom-link{
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        bottom: 110%;
+        left: 33%;
+        position: relative;
+    }
+}
